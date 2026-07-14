@@ -44,7 +44,7 @@ class TaskResponse(BaseModel):
     model_config = ConfigDict(from_attributes=True)
 
 #--------------
-# Task Schemas
+# Authentication Schemas
 #--------------
 
 class Token(BaseModel):

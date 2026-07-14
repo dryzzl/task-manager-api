@@ -15,7 +15,7 @@ class User(Base):
 
     tasks = relationship("Task", back_populates="owner")
 
-class User(Base):
+class Task(Base):
     __tablename__="tasks"
 
     id = Column(Integer, primary_key=True, index=True)
